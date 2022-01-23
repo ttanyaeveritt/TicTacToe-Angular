@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tictactoe-60b17": {
+      "hosting": {
+        "myapp": [
+          "tictactoe-60b17"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tictactoe-60b17"
+  }
+}
