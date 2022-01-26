@@ -2,11 +2,15 @@
 
 <button nbButton outline status="danger" (click)="newGame()"> Start new Game</button>
 
-
-<h2 *ngIf="winner">
+<!-- structural directive -> *ngIf -->
+<h2 *ngIf="winner"><!-- when winner is present-->
     Player {{winner}} won the game!
-</h2>
+</h2> 
 
+<!-- *ngFor  -->
+<!-- template variable = val  -->
+<!-- template variable = i  -->
+<!-- [value] ="val" --- pass value to child app square component; will be X or O -->
 <main>
     <app-square 
     *ngFor="let val of squares;let i =index"
